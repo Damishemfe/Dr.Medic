@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "733284790503",
+    "project_id": "dr-medic-b0929",
+    "storage_bucket": "dr-medic-b0929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733284790503:android:171dd17702b6bbbfa67242",
+        "android_client_info": {
+          "package_name": "com.hitrosttech.drmedic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733284790503-1j1ia2r9v3c1omuov4l4p9boetjd2bfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hitrosttech.drmedic",
+            "certificate_hash": "9744cbe94245a52379ef3add90bb20f79873298e"
+          }
+        },
+        {
+          "client_id": "733284790503-mosi88tqhjdtgsceqji6tk6oeqqs037j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM5M9ngw5HrCmPJkSYNi6lGv0MGSIoStY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733284790503-mosi88tqhjdtgsceqji6tk6oeqqs037j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
