@@ -64,5 +64,14 @@
     <string name="oncologist">Oncologist</string>
     <string name="dr_stephanie_james">Dr. Stephanie James</string>
     <string name="orthopedics_specialist">Orthopedics Specialist</string>
+    <string name="biography">Biography</string>
+    <string name="doc_bio_text">Dr. Grace Mark is a Dentist who graduated from University of Ibadan. Currently, Dr. Grace is practicing at Jos University Teaching Hospital, Plateau State...Read More</string>
+    <string name="appointment">Appointment</string>
+    <string name="mon_n_28">Mon \n 28</string>
+    <string name="schedule">Schedule</string>
+    <string name="_07_00_am">07:00 AM</string>
+    <string name="_10_30_am">10:30 AM</string>
+    <string name="_01_00_pm">01:00 PM</string>
+    <string name="make_appointment">MAKE APPOINTMENT</string>
 
 </resources>

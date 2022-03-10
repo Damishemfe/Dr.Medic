@@ -6,4 +6,246 @@
     android:layout_height="match_parent"
     tools:context=".view.DoctorProfile">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="553dp"
+        android:background="@drawable/ic_doc_grace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="598dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/bg_doc_bio"
+        android:paddingTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/doc_name_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:fontFamily="@font/raleway_black"
+            android:letterSpacing="0.05"
+            android:text="@string/dr_grace_mark"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/doc_spec_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doc_name_txt"
+            android:layout_marginStart="26dp"
+            android:fontFamily="@font/raleway_light"
+            android:letterSpacing="0.05"
+            android:text="@string/dental_specialist"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/ic_line"
+            android:layout_width="280dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/doc_spec_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/ic_line" />
+
+        <TextView
+            android:id="@+id/bio_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ic_line"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/raleway_black"
+            android:letterSpacing="0.05"
+            android:text="@string/biography"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/doc_bio_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bio_txt"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:fontFamily="@font/raleway_light"
+            android:letterSpacing="0.05"
+            android:text="@string/doc_bio_text"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/apo_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doc_bio_txt"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/raleway_black"
+            android:letterSpacing="0.05"
+            android:text="@string/appointment"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/date_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/apo_txt"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bg_cards"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:text="@string/mon_n_28"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="22dp"
+                android:background="@drawable/bg_cards"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:text="TUE \ 01"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="22dp"
+                android:background="@drawable/bg_card"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:text="WED \ 02"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="22dp"
+                android:background="@drawable/bg_cards"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:text="THUR \ 03"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="22dp"
+                android:background="@drawable/bg_cards"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:letterSpacing="0.05"
+                android:text="FRI n\ 04"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_pick"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/raleway_black"
+            android:letterSpacing="0.05"
+            android:text="@string/schedule"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/timer_pick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_txt"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_card"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:text="@string/_07_00_am"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/bg_cards"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:text="@string/_10_30_am"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/bg_cards"
+                android:fontFamily="@font/raleway_black"
+                android:gravity="center"
+                android:text="@string/_01_00_pm"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="56dp"
+            android:layout_below="@id/timer_pick"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_card"
+            android:text="@string/make_appointment"
+            android:textColor="@color/white"
+            android:fontFamily="@font/raleway_black"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:letterSpacing="0.06"
+            android:gravity="center"/>
+
+
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
